@@ -1,1 +1,1 @@
-web: gunicorn parking_backend.parking_backend.wsgi:application --bind 0.0.0.0:$PORT
+web: python list_files.py
